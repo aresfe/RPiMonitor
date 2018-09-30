@@ -3,9 +3,9 @@
 # for easy testing on stand-alone
 
 
-from Driver.ILCDDriver import ILCDDriver
+from Driver.ILCDDriver import LCDDriver
 
 
-class TestStub(ILCDDriver):
+class ConsoleTest(LCDDriver):
     def __init__(self):
         super.__init__()
